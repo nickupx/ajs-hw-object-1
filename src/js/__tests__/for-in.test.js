@@ -5,8 +5,7 @@ const obj = {
 }
 
 test('should sort', () => {
-  const result = orderByProps(obj, ['name', 'defence', 'level'])
-  expect(result).toEqual([
+  expect(orderByProps(obj, ['name', 'defence', 'level'])).toEqual([
     { key: 'name', value: 'мечник' },
     { key: 'defence', value: 40 },
     { key: 'level', value: 2 },
@@ -16,8 +15,7 @@ test('should sort', () => {
 })
 
 test('should sort alphabetically', () => {
-  const result = orderByProps(obj)
-  expect(result).toEqual([
+  expect(orderByProps(obj)).toEqual([
     { key: 'attack', value: 80 },
     { key: 'defence', value: 40 },
     { key: 'health', value: 10 },

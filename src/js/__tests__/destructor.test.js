@@ -23,8 +23,7 @@ const character = {
 }
 
 test('should return', () => {
-  const result = getArray(character)
-  expect(result).toEqual([
+  expect(getArray(character)).toEqual([
     {
       id: 8,
       name: 'Двойной выстрел',
