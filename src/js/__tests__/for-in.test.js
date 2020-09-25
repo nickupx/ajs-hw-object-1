@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import orderByProps from '../for-in'
 
 const obj = {
