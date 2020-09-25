@@ -18,7 +18,6 @@ export default function orderByProps(object, order) {
       arr.unshift(item)
     }
   }
-
   return arr
 }
 
